@@ -42,3 +42,7 @@
 .section-intro {
     height: 100vh;
 }
+
+.py-5 {
+    padding: 5rem 0;
+}
