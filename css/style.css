@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+:root {
+    --pr-color: #745a82;
+}
+
+.header {
+    background-color: #fafafa;
+    border-top: .5rem solid var(--pr-color);
+    padding: 1rem 1rem;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .logo {
+        svg {
+            width: 12rem;
+            height: auto;
+        }
+    }
+}
+
+.main-navigation {
+    ul {
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+    }
+}
+
+.section-intro {
+    height: 100vh;
+}
